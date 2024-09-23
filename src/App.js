@@ -10,7 +10,10 @@ function App() {
       {/* <Accordian/> */}
 
       {/* Random color component */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
+
+      {/* star Rating */}
+      <starRating noOfStars={10}/>
    
     </div>
   );
