@@ -1,19 +1,19 @@
 
 import './App.css';
+import Accordian from './components/accordian';
 
-import RandomColor from './components/random-color';
  
 function App() {
   return (
     <div className="App">
       {/* accordioncomponent */}
-      {/* <Accordian/> */}
+      <Accordian/>
 
       {/* Random color component */}
       {/* <RandomColor/> */}
 
       {/* star Rating */}
-      <starRating noOfStars={10}/>
+      {/* <starRating noOfStars={10}/> */}
    
     </div>
   );
